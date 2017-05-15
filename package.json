@@ -1,0 +1,79 @@
+{
+  "name": "@ngx-webpack/cli",
+  "version": "0.0.0",
+  "description": "Customizable Webpack config runner like Angular CLI",
+  "main": "index.js",
+  "scripts": {
+    "dll": "NODE_ENV=install node ./bin/ng-install",
+    "start": "node ./bin/ng-start.js --aot",
+    "build": "node ./bin/ng-build.js --aot",
+    "deploy": "node ./bin/ng-deploy.js",
+    "lint": "node ./bin/ng-lint.js",
+    "test": "node ./bin/ng-test.js",
+    "test-watch": "node ./bin/ng-test.js --watch",
+    "deploy-npm": "np --skip-cleanup",
+    "start-prod": "http-server ./dist -p 3000"
+  },
+  "bin": {
+    "ngx-install": "./bin/ng-install.js",
+    "ngx-start": "./bin/ng-start.js",
+    "ngx-build": "./bin/ng-build.js",
+    "ngx-deploy": "./bin/ng-deploy.js",
+    "ngx-test": "./bin/ng-test.js",
+    "ngx-lint": "./bin/ng-lint.js"
+  },
+  "dependencies": {
+    "gh-pages": "~1.0.0",
+    "ngx-karma": "0.1.3",
+    "ngx-tslint-config": "2.0.0",
+    "ngx-webpack": "4.0.1",
+    "rimraf": "~2.6.1",
+    "tslint": "~5.2.0",
+    "webpack": "~2.5.1",
+    "webpack-dev-server": "~2.4.5"
+  },
+  "devDependencies": {
+    "@angular/animations": "4.1.2",
+    "@angular/common": "4.1.2",
+    "@angular/compiler": "4.1.2",
+    "@angular/compiler-cli": "4.1.2",
+    "@angular/core": "4.1.2",
+    "@angular/forms": "4.1.2",
+    "@angular/http": "4.1.2",
+    "@angular/platform-browser": "4.1.2",
+    "@angular/platform-browser-dynamic": "4.1.2",
+    "@angular/platform-server": "4.1.2",
+    "@angular/router": "4.1.2",
+    "@ngx-translate/core": "^6.0.1",
+    "core-js": "~2.4.1",
+    "http-server": "~0.10.0",
+    "np": "~2.14.1",
+    "rxjs": "~5.4.0",
+    "zone.js": "0.8.10"
+  },
+  "peerDependencies": {
+    "@angular/compiler": "^4.0.0",
+    "@angular/core": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "author": {
+    "name": "blacksonic",
+    "email": "soos.gabor86@gmail.com"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ngx-webpack/cli.git"
+  },
+  "keywords": [
+    "angular",
+    "webpack",
+    "karma",
+    "jasmine"
+  ],
+  "license": "ISC"
+}
