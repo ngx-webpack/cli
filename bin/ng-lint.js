@@ -1,7 +1,7 @@
 #! /usr/bin/env node
 'use strict';
 
-let TslintRunner = require('tslint/lib/runner').Runner;
+let tslintRunner = require('tslint/lib/runner').run;
 let ResolveFile = require('../lib/resolve-file');
 
 let options = {
@@ -14,5 +14,8 @@ let options = {
   typeCheck: false,
   version: false
 };
-new TslintRunner(options, process.stdout)
-  .run(function (status) { return process.exit(status); });
+tslintRunner(options, console).then((status) => {
+  if (status !== 0) {
+    process.exit(1);
+  }
+});
