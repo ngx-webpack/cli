@@ -23,7 +23,7 @@
     "ngx-lint": "./bin/ng-lint.js"
   },
   "dependencies": {
-    "@ngx-webpack/core": "0.0.5",
+    "@ngx-webpack/core": "0.0.6",
     "@ngx-webpack/karma": "0.0.2",
     "@ngx-webpack/tslint-config": "0.0.1",
     "gh-pages": "~1.0.0",
