@@ -6,6 +6,7 @@
   "scripts": {
     "dll": "NODE_ENV=install node ./bin/ng-install",
     "start": "node ./bin/ng-start.js --aot",
+    "start-aot": "AOT=true webpack-dev-server",
     "build": "node ./bin/ng-build.js --aot",
     "deploy": "node ./bin/ng-deploy.js",
     "lint": "node ./bin/ng-lint.js",
@@ -23,7 +24,7 @@
     "ngx-lint": "./bin/ng-lint.js"
   },
   "dependencies": {
-    "@ngx-webpack/core": "0.0.6",
+    "@ngx-webpack/core": "0.0.8",
     "@ngx-webpack/karma": "0.0.2",
     "@ngx-webpack/tslint-config": "0.0.1",
     "gh-pages": "~1.0.0",
