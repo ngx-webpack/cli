@@ -24,33 +24,30 @@
     "ngx-lint": "./bin/ng-lint.js"
   },
   "dependencies": {
-    "@ngx-webpack/core": "0.0.8",
+    "@ngx-webpack/core": "0.0.10",
     "@ngx-webpack/karma": "0.0.2",
     "@ngx-webpack/tslint-config": "0.0.1",
     "gh-pages": "~1.0.0",
-    "rimraf": "~2.6.1",
-    "tslint": "~5.5.0",
-    "webpack": "~2.6.1",
-    "webpack-dev-server": "~2.6.1"
+    "rimraf": "~2.6.1"
   },
   "devDependencies": {
-    "@angular/animations": "4.3.1",
-    "@angular/common": "4.3.1",
-    "@angular/compiler": "4.3.1",
-    "@angular/compiler-cli": "4.3.1",
-    "@angular/core": "4.3.1",
-    "@angular/forms": "4.3.1",
-    "@angular/http": "4.3.1",
-    "@angular/platform-browser": "4.3.1",
-    "@angular/platform-browser-dynamic": "4.3.1",
-    "@angular/platform-server": "4.3.1",
-    "@angular/router": "4.3.1",
+    "@angular/animations": "4.3.3",
+    "@angular/common": "4.3.3",
+    "@angular/compiler": "4.3.3",
+    "@angular/compiler-cli": "4.3.3",
+    "@angular/core": "4.3.3",
+    "@angular/forms": "4.3.3",
+    "@angular/http": "4.3.3",
+    "@angular/platform-browser": "4.3.3",
+    "@angular/platform-browser-dynamic": "4.3.3",
+    "@angular/platform-server": "4.3.3",
+    "@angular/router": "4.3.3",
     "@ngx-translate/core": "^7.0.0",
-    "core-js": "~2.4.1",
+    "core-js": "~2.5.0",
     "http-server": "~0.10.0",
     "np": "~2.16.0",
     "rxjs": "~5.4.2",
-    "zone.js": "0.8.14"
+    "zone.js": "0.8.16"
   },
   "peerDependencies": {
     "@angular/compiler": "^4.0.0",
