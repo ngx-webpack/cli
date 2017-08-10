@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "@ngx-webpack/core": "0.0.10",
-    "@ngx-webpack/karma": "0.0.2",
+    "@ngx-webpack/karma": "0.0.4",
     "@ngx-webpack/tslint-config": "0.0.1",
     "gh-pages": "~1.0.0",
     "rimraf": "~2.6.1"
