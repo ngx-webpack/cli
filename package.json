@@ -1,6 +1,6 @@
 {
   "name": "@ngx-webpack/cli",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Customizable Webpack config runner like Angular CLI",
   "main": "index.js",
   "scripts": {
